@@ -1420,8 +1420,8 @@ elif page == "8. User Guide":
     st.markdown(
         """
         The dashboard converts production data into waste decision outputs.  
-        First, it calculates KPI values such as waiting time, inventory days, value-added ratio, defect loss, scrap rate, and rework rate.  
-        Then, WAM identifies the most critical waste type, while AHP ranks the departments by considering impact, cost, and effort.  
+        First, it calculates KPI values such as; waiting time, inventory days, value-added ratio, defect loss, scrap rate and rework rate.  
+        Then, WAM identifies the most critical waste type, while the AHP ranks the departments by considering impact, cost and effort.  
         Finally, the tool displays the top priority department and recommends improvement actions.
         """
     )
