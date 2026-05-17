@@ -1417,9 +1417,9 @@ elif page == "8. User Guide":
         - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
         *These inputs help determine:*
-        -The intensity of each type of waste
-        -How different wastes influence each other
-        -The overall waste structure in the production system
+        - The intensity of each type of waste
+        - How different wastes influence each other
+        - The overall waste structure in the production system
         
         **Step 3 - Enter Analytic Hierarchy Process data**
 
