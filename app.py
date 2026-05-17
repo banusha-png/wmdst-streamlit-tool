@@ -1433,6 +1433,14 @@ elif page == "8. User Guide":
         This step determines the relative importance of each criterion to support decision-making and prioritization.
         
         Ensure that the *Consistency Ratio (CR) is < 0.10* for valid results., If CR is higher; Revise your comparisons.
+        
+        **Step 4 — Run the Analysis**
+
+        After completing all inputs, the system automatically processes the data to generate:
+        - Operational performance indicators (KPIs)
+        - Waste classification and intensity (WAM results)
+        - Waste interaction mapping
+        - Priority weights and rankings (AHP results)
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
