@@ -1380,11 +1380,11 @@ elif page == "8. User Guide":
     )
 
     st.markdown('<div class="section-card">', unsafe_allow_html=True)
-    st.subheader("What data should the user enter?")
 
     st.markdown(
         """
-        **Production data**
+        **Step 1 - Enter Production data**
+        Input the required process data for each department:
         - Department name
         - Cycle time
         - Throughput time
