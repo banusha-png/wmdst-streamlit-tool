@@ -1383,8 +1383,8 @@ elif page == "8. User Guide":
 
     st.markdown(
         """
-        **Step 1 - Enter Production data**
-        *Input the required process data for each department:*
+    ###Step 1 - Enter Production data
+    Input the required process data for each department:
         - Department name
         - Cycle time
         - Throughput time
