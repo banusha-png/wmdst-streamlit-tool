@@ -1447,19 +1447,19 @@ elif page == "8. User Guide":
         The dashboard provides a clear summary of key findings:
 
         *Key Outputs*
-        - 🔴 Critical waste types (highest impact areas)
-        - 🏭 Priority departments requiring improvement
-        - 🎯 Focus areas for Lean intervention
-        - 💡 Recommended improvement actions
+        - Critical waste types (highest impact areas)
+        - Priority departments requiring improvement
+        - Focus areas for Lean intervention
+        - Recommended improvement actions
 
         **🟫 Step 6 — Export Report**
 
         Download a complete executive report containing:
-        - 📊 Production input summary
-        - 📈 KPI performance analysis
-        - ⚠️ WAM waste assessment results
-        - ⚖️ AHP priority rankings
-        - 💡 Lean improvement recommendations
+        - Production input summary
+        - KPI performance analysis
+        - WAM waste assessment results
+        - AHP priority rankings
+        - Lean improvement recommendations
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
@@ -1471,10 +1471,10 @@ elif page == "8. User Guide":
         **🎯 System Purpose**
 
         *This system provides a structured decision-support approach to:*
-        - 📈 Measure manufacturing performance using KPIs
-        - ⚠️ Identify and analyze waste using WAM methodology
-        - 🏭 Prioritize improvement actions using AHP
-        - 🚀 Support Lean manufacturing decision-making with data-driven insights
+        - Measure manufacturing performance using KPIs
+        - Identify and analyze waste using WAM methodology
+        - Prioritize improvement actions using AHP
+        - Support Lean manufacturing decision-making with data-driven insights
         
         """
     )
