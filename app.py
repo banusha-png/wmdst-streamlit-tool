@@ -597,14 +597,14 @@ def make_excel_download(project_info, validation_notes, kpi_df, wam_df, ahp_weig
 # SIDEBAR
 # ============================================================
 
-st.sidebar.title("📊 WMDST")
+st.sidebar.title("WMDST")
 st.sidebar.caption("Waste Mapping Decision Support Tool")
 
 page = st.sidebar.radio(
     "Navigation",
     [
         "1. Home",
-        "2. Easy Data Entry",
+        "2. Data Entry",
         "3. WAM Input",
         "4. AHP Input",
         "5. Cutting Waste",
