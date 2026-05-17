@@ -1388,9 +1388,9 @@ elif page == "8. User Guide":
 
         This system is designed to help identify, analyze and prioritize waste reduction opportunities in manufacturing processes using *KPI analysis, WAM (Waste Assessment Model) and AHP (Analytic Hierarchy Process).*
         
-        **Step 1 - Enter Production data**
+        **🟦 Step 1 - Enter Production data**
         
-        Input the required process data for each department:
+        📊 Input the required process data for each department:
         - Department name
         - Cycle time
         - Throughput time
@@ -1403,38 +1403,38 @@ elif page == "8. User Guide":
         - Cost score
         - Effort score
 
-        #Cutting waste data
+        ✂️ Cutting waste data
         - Fabric input
         - Marker efficiency
         - Reusable off-cut percentage
 
-        *Ensure all values are accurate, as they form the foundation for KPI and waste calculations.*
+        ⚠️ *Ensure all values are accurate, as they form the foundation for KPI and waste calculations.*
 
-        **Step 2 - Completee the Waste Assessment Model Questionnaire**
+        **🟨 Step 2 - Completee the Waste Assessment Model Questionnaire**
 
         This step evaluates the level and interaction of waste within each process.
         - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
         - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
-        *These inputs help determine:*
+        📌 *These inputs help determine:*
         - The intensity of each type of waste
         - How different wastes influence each other
         - The overall waste structure in the production system
         
-        **Step 3 - Enter Analytic Hierarchy Process data**
+        **🟧 Step 3 - Enter Analytic Hierarchy Process data**
 
         Define decision priorities through pairwise comparisons of the following criteria:
         - Impact vs Cost
         - Impact vs Effort
         - Cost vs Effort
 
-        *Purpose of AHP*
+        🎯 *Purpose of AHP*
 
         This step determines the relative importance of each criterion to support decision-making and prioritization.
         
-        Ensure that the *Consistency Ratio (CR) is < 0.10* for valid results., If CR is higher; Revise your comparisons.
+        ✔ Ensure that the *Consistency Ratio (CR) is < 0.10* for valid results., If CR is higher; Revise your comparisons.
         
-        **Step 4 — Run the Analysis**
+        **🟩 Step 4 — Run the Analysis**
 
         After completing all inputs, the system automatically processes the data to generate:
         - Operational performance indicators (KPIs)
@@ -1442,7 +1442,7 @@ elif page == "8. User Guide":
         - Waste interaction mapping
         - Priority weights and rankings (AHP results)
 
-        **Step 5 — Review Dashboard Insights**
+        **🟪 Step 5 — Review Dashboard Insights**
 
         The dashboard provides a clear summary of key findings:
 
@@ -1452,14 +1452,14 @@ elif page == "8. User Guide":
         - 🎯 Focus areas for Lean intervention
         - 💡 Recommended improvement actions
 
-        **Step 6 — Export Report**
+        **🟫 Step 6 — Export Report**
 
         Download a complete executive report containing:
-        - Production input summary
-        - KPI performance analysis
-        - WAM waste assessment results
-        - AHP priority rankings
-        - Lean improvement recommendations
+        - 📊 Production input summary
+        - 📈 KPI performance analysis
+        - ⚠️ WAM waste assessment results
+        - ⚖️ AHP priority rankings
+        - 💡 Lean improvement recommendations
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
@@ -1472,10 +1472,10 @@ elif page == "8. User Guide":
         **🎯 System Purpose**
 
         *This system provides a structured decision-support approach to:*
-        - Measure manufacturing performance using KPIs
-        - Identify and analyze waste using WAM methodology
-        - Prioritize improvement actions using AHP
-        - Support Lean manufacturing decision-making with data-driven insights
+        - 📈 Measure manufacturing performance using KPIs
+        - ⚠️ Identify and analyze waste using WAM methodology
+        - 🏭 Prioritize improvement actions using AHP
+        - 🚀 Support Lean manufacturing decision-making with data-driven insights
         
         """
     )
