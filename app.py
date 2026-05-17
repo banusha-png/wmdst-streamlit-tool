@@ -146,10 +146,10 @@ WASTE_TYPES = ["Waiting", "Inventory", "Defects", "Overproduction"]
 
 DEFAULT_RELATIONSHIP_MATRIX = pd.DataFrame(
     [
-        [0, 2, 2, 1],
-        [2, 0, 2, 1],
-        [2, 2, 0, 1],
-        [1, 2, 1, 0],
+        [0, 3, 3, 2],
+        [3, 0, 2, 3],
+        [3, 2, 0, 2],
+        [2, 3, 2, 0],
     ],
     index=WASTE_TYPES,
     columns=WASTE_TYPES
