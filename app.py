@@ -1397,11 +1397,11 @@ elif page == "8. User Guide":
         - Cost score
         - Effort score
 
-        **WAM data**
+        **Waste Assessment Model data**
         - Waste seriousness scores from 1 to 5
         - Waste relationship scores from 0 to 3
 
-        **AHP data**
+        **Analytic Hierarchy Process data**
         - Impact vs Cost
         - Impact vs Effort
         - Cost vs Effort
