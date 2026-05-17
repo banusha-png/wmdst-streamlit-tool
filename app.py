@@ -1403,9 +1403,11 @@ elif page == "8. User Guide":
         - Marker efficiency
         - Reusable off-cut percentage
 
-        **Waste Assessment Model data**
-        - Waste seriousness scores from 1 to 5
-        - Waste relationship scores from 0 to 3
+        **Step 2 - Completee the Waste Assessment Model Questionnaire**
+        - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
+        - Rate waste relationship strength on a scale of 0 to 3
+
+        These inputs are used to evaluate the intensity and interconnection of different types of waste within the production system.
 
         **Analytic Hierarchy Process data**
         - Impact vs Cost
