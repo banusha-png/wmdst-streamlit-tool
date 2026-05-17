@@ -1426,18 +1426,3 @@ elif page == "8. User Guide":
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown('<div class="section-card">', unsafe_allow_html=True)
-    st.subheader("Why this is better than Excel")
-
-    st.markdown(
-        """
-        - The user enters data through guided forms instead of editing many Excel sheets.
-        - The formulas are protected inside the code.
-        - The tool reduces accidental formula changes.
-        - The dashboard is easier to understand for managers and supervisors.
-        - It can be shared as a web link.
-        - Results can still be downloaded as Excel for reporting.
-        """
-    )
-    st.markdown('</div>', unsafe_allow_html=True)
