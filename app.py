@@ -1408,12 +1408,19 @@ elif page == "8. User Guide":
         - Marker efficiency
         - Reusable off-cut percentage
 
+        *Ensure all values are accurate, as they form the foundation for KPI and waste calculations.*
+
         **Step 2 - Completee the Waste Assessment Model Questionnaire**
+
+        This step evaluates the level and interaction of waste within each process.
         - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
-        - Rate waste relationship strength on a scale of 0 to 3
+        - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
-        These inputs are used to evaluate the intensity and interconnection of different types of waste within the production system.
-
+        *These inputs help determine:*
+        -The intensity of each type of waste
+        -How different wastes influence each other
+        -The overall waste structure in the production system
+        
         **Step 3 - Enter Analytic Hierarchy Process data**
 
         Provide pairwise comparison judgments for the following criteria:
