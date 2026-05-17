@@ -1432,7 +1432,7 @@ elif page == "8. User Guide":
 
         This step determines the relative importance of each criterion to support decision-making and prioritization.
         
-        *Ensure that the Consistency Ratio (CR) is < 0.10 for valid results.*, If CR is higher; Revise your comparisons
+        Ensure that the *Consistency Ratio (CR) is < 0.10* for valid results., If CR is higher; Revise your comparisons.
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
