@@ -14,7 +14,6 @@ import streamlit as st
 
 st.set_page_config(
     page_title="WMDST | Waste Mapping Decision Support Tool",
-    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
