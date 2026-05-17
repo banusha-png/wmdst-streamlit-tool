@@ -1381,7 +1381,7 @@ elif page == "7. Recommendations & Export":
 elif page == "8. User Guide":
     hero(
         "User Guide",
-        "Step by Step guide."
+        "Step by Step Instructions."
     )
 
     st.markdown('<div class="section-card">', unsafe_allow_html=True)
