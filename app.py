@@ -346,7 +346,12 @@ def style_priority_dataframe(df):
     }
     format_dict = {k: v for k, v in format_dict.items() if k in df.columns}
 
-    return df.style.format(format_dict).applymap(color_priority, subset=["Priority Level"])
+    styled = df.style.format(format_dict)
+
+if "Priority Level" in df.columns:
+    styled = styled.map(color_priority, subset=["Priority Level"])
+
+return styled
 
 
 # ============================================================
