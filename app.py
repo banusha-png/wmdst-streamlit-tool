@@ -1383,6 +1383,11 @@ elif page == "8. User Guide":
 
     st.markdown(
         """
+
+        **Overview**
+
+        This system is designed to help identify, analyze and prioritize waste reduction opportunities in manufacturing processes using *KPI analysis, WAM (Waste Assessment Model) and AHP (Analytic Hierarchy Process).*
+        
         **Step 1 - Enter Production data**
         
         Input the required process data for each department:
