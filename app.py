@@ -514,11 +514,11 @@ def recommendation_for(row):
     priority = row["Priority Level"]
 
     if waste == "Inventory":
-        action = "Introduce FIFO or pull control, align shipment schedule, reduce holding time, and review storage policy."
+        action = "Introduce FIFO or pull control, align shipment schedule, reduce holding time and review storage policy."
     elif waste == "Waiting":
-        action = "Improve line balancing, material availability, work release planning, and bottleneck control."
+        action = "Improve line balancing, material availability, work release planning and bottleneck control."
     elif waste == "Defects":
-        action = "Strengthen inline quality checks, operator training, poka-yoke, setup control, and root-cause analysis."
+        action = "Strengthen inline quality checks, operator training, poka-yoke, setup control and root-cause analysis."
     elif waste == "Overproduction":
         action = "Control batch size, improve demand alignment, and reduce production ahead of confirmed requirement."
     else:
