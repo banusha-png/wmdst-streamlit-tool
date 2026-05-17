@@ -1441,6 +1441,16 @@ elif page == "8. User Guide":
         - Waste classification and intensity (WAM results)
         - Waste interaction mapping
         - Priority weights and rankings (AHP results)
+
+        **Step 5 — Review Dashboard Insights**
+
+        The dashboard provides a clear summary of key findings:
+
+        *Key Outputs*
+        - 🔴 Critical waste types (highest impact areas)
+        - 🏭 Priority departments requiring improvement
+        - 🎯 Focus areas for Lean intervention
+        - 💡 Recommended improvement actions
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
