@@ -1403,7 +1403,7 @@ elif page == "8. User Guide":
         - Cost score
         - Effort score
 
-        *Cutting waste data*
+        #Cutting waste data
         - Fabric input
         - Marker efficiency
         - Reusable off-cut percentage
@@ -1423,14 +1423,16 @@ elif page == "8. User Guide":
         
         **Step 3 - Enter Analytic Hierarchy Process data**
 
-        Provide pairwise comparison judgments for the following criteria:
+        Define decision priorities through pairwise comparisons of the following criteria:
         - Impact vs Cost
         - Impact vs Effort
         - Cost vs Effort
 
-        These comparisons are used to determine the relative importance of each factor and compute priority weights for decision-making.
+        *Purpose of AHP*
 
-        *Ensure that the Consistency Ratio (CR) is < 0.10 for valid results.*
+        This step determines the relative importance of each criterion to support decision-making and prioritization.
+        
+        *Ensure that the Consistency Ratio (CR) is < 0.10 for valid results.*, If CR is higher; Revise your comparisons
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
