@@ -1451,6 +1451,15 @@ elif page == "8. User Guide":
         - 🏭 Priority departments requiring improvement
         - 🎯 Focus areas for Lean intervention
         - 💡 Recommended improvement actions
+
+        **Step 6 — Export Report**
+
+        Download a complete executive report containing:
+        - Production input summary
+        - KPI performance analysis
+        - WAM waste assessment results
+        - AHP priority rankings
+        - Lean improvement recommendations
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
@@ -1460,10 +1469,14 @@ elif page == "8. User Guide":
 
     st.markdown(
         """
-        The dashboard converts production data into waste decision outputs.  
-        First, it calculates KPI values such as; waiting time, inventory days, value-added ratio, defect loss, scrap rate and rework rate.  
-        Then, WAM identifies the most critical waste type, while the AHP ranks the departments by considering impact, cost and effort.  
-        Finally, the tool displays the top priority department and recommends improvement actions.
+        **🎯 System Purpose**
+
+        *This system provides a structured decision-support approach to:*
+        - Measure manufacturing performance using KPIs
+        - Identify and analyze waste using WAM methodology
+        - Prioritize improvement actions using AHP
+        - Support Lean manufacturing decision-making with data-driven insights
+        
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
