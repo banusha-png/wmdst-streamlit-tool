@@ -1465,7 +1465,6 @@ elif page == "8. User Guide":
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="section-card">', unsafe_allow_html=True)
-    st.subheader("How to explain the dashboard")
 
     st.markdown(
         """
