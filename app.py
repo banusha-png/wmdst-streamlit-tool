@@ -1385,7 +1385,7 @@ elif page == "8. User Guide":
         """
         **Step 1 - Enter Production data**
         
-        *Input the required process data for each department:*
+        Input the required process data for each department:
         - Department name
         - Cycle time
         - Throughput time
@@ -1409,11 +1409,16 @@ elif page == "8. User Guide":
 
         These inputs are used to evaluate the intensity and interconnection of different types of waste within the production system.
 
-        **Analytic Hierarchy Process data**
+        **Step 3 - Enter Analytic Hierarchy Process data**
+
+        Provide pairwise comparison judgments for the following criteria:
         - Impact vs Cost
         - Impact vs Effort
         - Cost vs Effort
-        
+
+        These comparisons are used to determine the relative importance of each factor and compute priority weights for decision-making.
+
+        *Ensure that the Consistency Ratio (CR) is < 0.10 for valid results.*
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
