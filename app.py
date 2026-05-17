@@ -1397,6 +1397,11 @@ elif page == "8. User Guide":
         - Cost score
         - Effort score
 
+        **Cutting waste data**
+        - Fabric input
+        - Marker efficiency
+        - Reusable off-cut percentage
+
         **Waste Assessment Model data**
         - Waste seriousness scores from 1 to 5
         - Waste relationship scores from 0 to 3
@@ -1405,11 +1410,7 @@ elif page == "8. User Guide":
         - Impact vs Cost
         - Impact vs Effort
         - Cost vs Effort
-
-        **Cutting waste data**
-        - Fabric input
-        - Marker efficiency
-        - Reusable off-cut percentage
+        
         """
     )
     st.markdown('</div>', unsafe_allow_html=True)
