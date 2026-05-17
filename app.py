@@ -781,12 +781,12 @@ if page == "1. Home":
 
 
 # ============================================================
-# PAGE 2 - EASY DATA ENTRY
+# PAGE 2 - DATA ENTRY
 # ============================================================
 
-elif page == "2. Easy Data Entry":
+elif page == "2. Data Entry":
     hero(
-        "Easy Production Data Entry",
+        "Production Data Entry",
         "Enter one department at a time, edit the full table, or upload a CSV template."
     )
 
