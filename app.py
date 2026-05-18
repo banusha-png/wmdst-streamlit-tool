@@ -1415,7 +1415,7 @@ elif page == "8. User Guide":
 
         ⚠️ *Ensure all values are accurate, as they form the foundation for KPI and waste calculations.*
 
-        **🟨 Step 2 - Completee the Waste Assessment Model Questionnaire**
+        **🟨 Step 2 - Complete the Waste Assessment Model Questionnaire**
 
         This step evaluates the level and interaction of waste within each process.
         - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
