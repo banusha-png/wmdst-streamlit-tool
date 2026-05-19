@@ -1440,17 +1440,21 @@ elif page == "8. User Guide":
         
         **🟧 Step 3 - Enter Analytic Hierarchy Process data**
 
-        Define decision priorities through pairwise comparisons of the following criteria:
-        - Impact vs Cost
-        - Impact vs Effort
-        - Cost vs Effort
+        - Use the Saaty scale (1–9) to compare criteria importance.
+        - Define decision priorities through pairwise comparisons of the following criteria:
+                - Impact vs Cost
+                - Impact vs Effort
+                - Cost vs Effort
+        - Reciprocal values are generated automatically by the system.
+        - System calculates:
+                - Priority weights
+                - Geometric mean
+                - Consistency check (CR)
 
-        🎯 *Purpose of AHP*
+        `✔ CR must be < 0.10 for valid results
 
-        This step determines the relative importance of each criterion to support decision-making and prioritization.
-        
-        ✔ Ensure that the *Consistency Ratio (CR) is < 0.10* for valid results., If CR is higher; Revise your comparisons.
-        
+         ✔ If CR is higher, revise inputs
+
         **🟩 Step 4 — Run the Analysis**
 
         After completing all inputs, the system automatically processes the data to generate:
