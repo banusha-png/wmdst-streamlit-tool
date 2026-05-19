@@ -1380,8 +1380,7 @@ elif page == "7. Recommendations & Export":
 
 elif page == "8. User Guide":
     hero(
-        "User Guide",
-        "Step by Step Instructions.",
+        "User Guide - Step by Step Instructions.",
         "# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams."
 
     )
