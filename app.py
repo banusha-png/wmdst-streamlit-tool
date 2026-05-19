@@ -1421,9 +1421,9 @@ elif page == "8. User Guide":
         - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
         - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
-        📌 *Sample Questions (Adjust to Suit Your Factory Procedures)*
+        **Sample Questions (Adjust to Suit Your Factory Procedures)**
 
-        📝 Collect responses using this questionnaire from relevant personnel across different departments to ensure diverse operational perspectives and improve the reliability of the assessment results.
+        📝 *Collect responses using this questionnaire from relevant personnel across different departments to ensure diverse operational perspectives and improve the reliability of the assessment results.*
         
         **Waiting:** 1) Delays occur between one process and the next; 2) Operators or machines remain idle due to material or information delays; 3) Approval, Inspection or machine setup delays affect production flow.
         
