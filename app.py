@@ -1382,8 +1382,7 @@ elif page == "8. User Guide":
     hero(
         "User Guide",
         "Step by Step Instructions."
-        
-        **# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams.**
+        "# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams."
 
     )
 
