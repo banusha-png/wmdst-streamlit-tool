@@ -1421,6 +1421,11 @@ elif page == "8. User Guide":
         - Rate waste seriousness on a scale of 1 (Very Low)  to 5 (Very High)
         - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
+        📌 *Sample Questions (Adjust to Suit Your Factory Procedures)*
+        - Waiting: Delays occur between one process and the next, Operators or machines remain idle due to material or information delays, Approval, Inspection or machine setup delays affect production flow.
+        - How different wastes influence each other
+        - The overall waste structure in the production system
+        
         📌 *These inputs help determine:*
         - The intensity of each type of waste
         - How different wastes influence each other
