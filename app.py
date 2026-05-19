@@ -1422,6 +1422,7 @@ elif page == "8. User Guide":
         - Rate waste relationship strength on a scale of 0 (No Relationship) to 3 (Strong relationship)
 
         📌 *Sample Questions (Adjust to Suit Your Factory Procedures)*
+        
         **Waiting:** 1) Delays occur between one process and the next; 2) Operators or machines remain idle due to material or information delays; 3) Approval, Inspection or machine setup delays affect production flow.
         
         **Inventory:** 1) Materials or finished goods stay in storage for a long time before next movement; 2) Finished goods accumulation occurs before shipment; 3) Excess WIP or inventory hides process problems.
