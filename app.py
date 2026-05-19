@@ -1488,6 +1488,8 @@ elif page == "8. User Guide":
         - Identify and analyze waste using WAM methodology
         - Prioritize improvement actions using AHP
         - Support Lean manufacturing decision-making with data-driven insights
+
+        **# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams.**
         
         """
     )
