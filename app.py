@@ -1382,6 +1382,9 @@ elif page == "8. User Guide":
     hero(
         "User Guide",
         "Step by Step Instructions."
+        
+        **# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams.**
+
     )
 
     st.markdown('<div class="section-card">', unsafe_allow_html=True)
@@ -1488,8 +1491,6 @@ elif page == "8. User Guide":
         - Identify and analyze waste using WAM methodology
         - Prioritize improvement actions using AHP
         - Support Lean manufacturing decision-making with data-driven insights
-
-        **# This Waste Mapping Decision Support Tool is intended to be handled by the Production and IE teams.**
         
         """
     )
