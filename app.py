@@ -1441,19 +1441,11 @@ elif page == "8. User Guide":
         **🟧 Step 3 - Enter Analytic Hierarchy Process data**
 
         - Use the Saaty scale (1–9) to compare criteria importance.
-        - Define decision priorities through pairwise comparisons of the following criteria:
-                - Impact vs Cost
-                - Impact vs Effort
-                - Cost vs Effort
+        - Define decision priorities through pairwise comparisons of the following criteria: # Impact vs Cost; # Impact vs Effort; # Cost vs Effort
         - Reciprocal values are generated automatically by the system.
-        - System calculates:
-                - Priority weights
-                - Geometric mean
-                - Consistency check (CR)
+        - System calculates: # Priority weights; # Geometric mean; # Consistency check (CR)
 
-        `✔ CR must be < 0.10 for valid results
-
-         ✔ If CR is higher, revise inputs
+        `✔ CR must be < 0.10 for valid results (*If CR is higher, revise inputs*)
 
         **🟩 Step 4 — Run the Analysis**
 
